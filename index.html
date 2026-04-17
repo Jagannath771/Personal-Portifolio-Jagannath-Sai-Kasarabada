@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jagannath Sai Kasarabada | AI Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Jagannath Sai Kasarabada — AI Engineer and Data Engineer building RAG systems, cloud data platforms, and production-grade AI applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+  <div class="noise"></div>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="#top" class="brand">
+        <span class="brand-dot"></span>
+        Jagannath
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">AI Engineer • Data Engineer • Production Builder</p>
+        <h1>
+          Building AI systems that are
+          <span class="gradient-text">useful, scalable, and real.</span>
+        </h1>
+        <div class="hero-typing-line">
+          <span>I create </span>
+          <span id="typed-text" class="typed-text"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-text">
+          I work at the intersection of GenAI and data engineering — building RAG applications,
+          intelligent developer workflows, analytics-ready data platforms, and cloud-native systems
+          that hold up in real environments.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="https://github.com/Jagannath771" target="_blank" rel="noreferrer">Explore GitHub</a>
+          <a class="btn btn-secondary magnetic" href="#projects">See My Work</a>
+          <a class="btn btn-ghost magnetic" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+        </div>
+
+        <div class="hero-metrics">
+          <article class="metric-card glass tilt">
+            <span class="metric-value">RAG</span>
+            <span class="metric-label">LLM apps grounded with retrieval</span>
+          </article>
+          <article class="metric-card glass tilt">
+            <span class="metric-value">Azure + AWS</span>
+            <span class="metric-label">Cloud-scale data and ML systems</span>
+          </article>
+          <article class="metric-card glass tilt">
+            <span class="metric-value">PySpark</span>
+            <span class="metric-label">Performance-minded distributed pipelines</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card glass reveal">
+          <div class="profile-frame">
+            <img src="profile.jpg" alt="Profile photo of Jagannath Sai Kasarabada" class="profile-pic" />
+            <div class="scan-line"></div>
+          </div>
+
+          <div class="status-row">
+            <span class="status-pill online">Available for impactful AI roles</span>
+            <span class="status-pill">San Antonio, TX</span>
+          </div>
+
+          <div class="hero-card-copy">
+            <p class="small-label">Current Focus</p>
+            <h3>Production-grade GenAI + data systems</h3>
+            <p>
+              Designing systems that connect clean data foundations with AI capabilities:
+              retrieval, automation, observability, deployment, and developer productivity.
+            </p>
+          </div>
+
+          <div class="skill-orbit">
+            <span>Python</span>
+            <span>RAG</span>
+            <span>SQL</span>
+            <span>Azure</span>
+            <span>PySpark</span>
+            <span>LLMs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <div class="section-heading">
+        <p class="section-kicker">About</p>
+        <h2>A technical builder with an AI-first edge.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="panel glass">
+          <p>
+            My work combines deep data engineering foundations with practical AI implementation.
+            I enjoy building systems end-to-end — from ingestion, transformation, and modeling
+            to RAG workflows, application logic, deployment, and operational reliability.
+          </p>
+          <p>
+            I’m especially interested in AI systems that solve real workflow problems: intelligent
+            search, decision support, productivity tooling, and domain-aware applications powered by LLMs.
+          </p>
+        </div>
+
+        <div class="panel glass">
+          <h3>Core Technologies</h3>
+          <div class="chip-grid">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>PySpark</span>
+            <span>Azure Synapse</span>
+            <span>ADF</span>
+            <span>ADLS Gen2</span>
+            <span>Snowflake</span>
+            <span>SageMaker</span>
+            <span>RAG</span>
+            <span>Embeddings</span>
+            <span>Supabase</span>
+            <span>REST APIs</span>
+            <span>CI/CD</span>
+            <span>Docker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container reveal">
+      <div class="section-heading">
+        <p class="section-kicker">Experience</p>
+        <h2>Building enterprise-grade systems</h2>
+        <p class="section-text">
+          I’ve worked across cloud data platforms, feature engineering, pipeline automation, and AI-ready systems,
+          with a strong focus on scalability, reliability, and production quality.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item glass reveal-left">
+          <div class="timeline-accent"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Data Engineer • Marathon Petroleum Corp</h3>
+              <span>June 2025 – Present</span>
+            </div>
+            <p>
+              Built and maintained production-grade data pipelines and AI-ready feature layers supporting analytics
+              and ML workloads at scale. Improved distributed Spark performance through partition-skew mitigation,
+              broadcast joins, and pipeline optimizations that reduced latency and cloud cost.
+            </p>
+            <p>
+              Automated deployment workflows using Python and PowerShell, improved release consistency with CI/CD patterns,
+              and designed secure access models with RBAC and data protection controls for enterprise datasets used in
+              reporting, analytics, and downstream AI use cases.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal-left">
+          <div class="timeline-accent"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Data Engineer • Fiserv</h3>
+              <span>Feb 2024 – June 2025</span>
+            </div>
+            <p>
+              Architected scalable data lake layers for structured and unstructured workloads, enabling analytics,
+              feature engineering, and ML consumption patterns across cloud environments. Built retraining-ready
+              data flows and improved data usability for near real-time insights.
+            </p>
+            <p>
+              Supported cloud migration from legacy systems into Snowflake and AWS-based data ecosystems, using
+              validation frameworks and reusable PySpark components to improve reliability, developer speed, and
+              production readiness.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal-left">
+          <div class="timeline-accent"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Engineering Intern • Changing the Present</h3>
+              <span>Dec 2023 – Feb 2024</span>
+            </div>
+            <p>
+              Developed optimized ETL pipelines using Python libraries for API-based ingestion and data preparation,
+              reducing preprocessing latency for analytics and ML-oriented workflows.
+            </p>
+            <p>
+              Contributed to backend data modeling and delivery practices by designing normalized MySQL schemas,
+              coordinating work in Agile sprints, and supporting GitHub-based development workflows that improved
+              execution quality and collaboration.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <div class="section-heading">
+        <p class="section-kicker">Signature Strengths</p>
+        <h2>Not just project cards — a systems story.</h2>
+      </div>
+
+      <div class="value-grid">
+        <article class="value-card glass tilt">
+          <h3>AI Applications</h3>
+          <p>RAG pipelines, grounded responses, prompt workflows, embeddings, and agent-like orchestration.</p>
+        </article>
+        <article class="value-card glass tilt">
+          <h3>Data Platforms</h3>
+          <p>Reliable ingestion, medallion architecture thinking, performance tuning, and production data readiness.</p>
+        </article>
+        <article class="value-card glass tilt">
+          <h3>Cloud Execution</h3>
+          <p>Azure and AWS implementation experience spanning orchestration, storage, compute, deployment, and automation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container reveal">
+      <div class="section-heading">
+        <p class="section-kicker">Featured Projects</p>
+        <h2>Curated work</h2>
+        <p class="section-text">
+          A focused project selection instead of listing every repository. For additional work, visitors can explore my GitHub directly.
+        </p>
+      </div>
+
+      <div class="project-showcase">
+        <article class="project-feature glass tilt">
+          <div class="project-media">
+            <img src="assets/project-health-whisperer.svg" alt="Health Whisperer AI project visual" />
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="badge">Flagship</span>
+              <h3>Health Whisperer AI</h3>
+            </div>
+            <p>
+              A cross-platform wellness intelligence system that unifies journals, meals, metrics,
+              and chat-based support into a single personalized experience. It uses retrieval,
+              embeddings, and targeted nudging logic to make health tracking more adaptive and human.
+            </p>
+            <div class="chip-grid">
+              <span>Streamlit</span>
+              <span>Supabase</span>
+              <span>OpenAI</span>
+              <span>pgvector</span>
+              <span>RAG</span>
+              <span>Telegram Bot</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://healthwhispererai.com/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a href="https://github.com/Jagannath771/Health-Whisperer" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature glass tilt">
+          <div class="project-media">
+            <img src="assets/project-crediverify.svg" alt="CrediVerify project visual" />
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="badge alt">GenAI</span>
+              <h3>CrediVerify</h3>
+            </div>
+            <p>
+              A RAG-based fact-checking workflow that validates health claims from video content
+              against trusted literature sources. Designed to reduce manual verification effort
+              and make evidence-backed analysis faster and more reliable.
+            </p>
+            <div class="chip-grid">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>Gemini</span>
+              <span>GPT</span>
+              <span>PubMed</span>
+              <span>Embeddings</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature glass tilt">
+          <div class="project-media">
+            <img src="assets/project-ai-fitness.svg" alt="AI Health Fitness Planner visual" />
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="badge neutral">AI App</span>
+              <h3>AI-Health-Fitness-Planner</h3>
+            </div>
+            <p>
+              A health and fitness planning application focused on generating practical wellness guidance,
+              structured planning flows, and user-friendly interactions around personal health goals.
+            </p>
+            <div class="chip-grid">
+              <span>AI</span>
+              <span>Health</span>
+              <span>Planning</span>
+              <span>Python</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature glass tilt">
+          <div class="project-media">
+            <img src="assets/project-emotion.svg" alt="Emotion Recognition visual" />
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="badge">ML</span>
+              <h3>Emotion Recognition</h3>
+            </div>
+            <p>
+              A machine learning project centered on detecting emotional patterns from input data,
+              demonstrating model development, inference logic, and applied AI techniques for human-centered analysis.
+            </p>
+            <div class="chip-grid">
+              <span>Machine Learning</span>
+              <span>Emotion AI</span>
+              <span>Python</span>
+              <span>Inference</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature glass tilt">
+          <div class="project-media">
+            <img src="assets/project-churn.svg" alt="Customer Churn Prediction visual" />
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="badge alt">Predictive ML</span>
+              <h3>Customer Churn Prediction</h3>
+            </div>
+            <p>
+              A predictive analytics project aimed at identifying churn risk, helping translate customer behavior data
+              into actionable retention insights through feature engineering and classification modeling.
+            </p>
+            <div class="chip-grid">
+              <span>Classification</span>
+              <span>Feature Engineering</span>
+              <span>Python</span>
+              <span>Analytics</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="github-cta glass">
+        <h3>Want to see more?</h3>
+        <p>Explore the rest of my original work, experiments, and repositories directly on GitHub.</p>
+        <a class="btn btn-primary magnetic" href="https://github.com/Jagannath771?tab=repositories" target="_blank" rel="noreferrer">View All Repositories</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <div class="contact-card glass">
+        <p class="section-kicker">Contact</p>
+        <h2>Let’s build something meaningful.</h2>
+        <p>
+          I’m interested in AI Engineering, GenAI platforms, data-intensive systems, and roles where production quality matters.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:jagannathsai771@gmail.com">jagannathsai771@gmail.com</a>
+          <a href="https://github.com/Jagannath771" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/jagannath-sai-2026211a6/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jagannath Sai Kasarabada. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
